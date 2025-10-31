@@ -80,6 +80,7 @@ function App() {
           {store.getState().user.authenticated ? (
             <Fragment>
               <Switch>
+              <span>hi</span>
                 <Route exact path="/" component={HomePageProvider} />
                 <Route exact path="/upload" component={UploadPage} />
                 <Route
